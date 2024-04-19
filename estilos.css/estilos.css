@@ -1,0 +1,70 @@
+html{
+    background-color: hsl(0, 0%, 8%);
+    width: 1440px;
+}
+div.contenedor{
+    margin: 100px 500px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+div.contenedor h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+
+}
+
+div.contenedor h4{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+div.contenedor img{
+    border-radius: 50%;
+    width: 100px;
+}
+div.tarjeta{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    margin: 5px 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+.tarjeta p{
+    padding: 15px;
+    margin: 0px;
+}
+
+.tarjeta :hover{
+    background-color: hsl(75, 94%, 57%);
+    border-radius: 15px;
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+    
+}
+
+
+
+
