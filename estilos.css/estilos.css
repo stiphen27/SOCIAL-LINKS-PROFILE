@@ -1,14 +1,15 @@
 html{
     background-color: hsl(0, 0%, 8%);
-    width: 1440px;
+    width: 100%;
 }
-div.contenedor{
-    margin: 100px 500px;
+.contenedor{
+    width: 25%;
+    margin: 10% 35%;
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     color: white;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -17,7 +18,7 @@ div.contenedor{
     font-variation-settings:
     "slnt" 0;
 }
-div.contenedor h1{
+.contenedor h1{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -27,7 +28,7 @@ div.contenedor h1{
 
 }
 
-div.contenedor h4{
+.contenedor h4{
     color: hsl(75, 94%, 57%);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -37,11 +38,11 @@ div.contenedor h4{
     "slnt" 0;
 }
 
-div.contenedor img{
+.contenedor img{
     border-radius: 50%;
     width: 100px;
 }
-div.tarjeta{
+.tarjeta{
     background-color: hsl(0, 0%, 20%);
     border-radius: 10px;
     margin: 5px 25px;
@@ -65,6 +66,11 @@ div.tarjeta{
     
 }
 
-
+@media screen and (max-width:375px) {
+.contenedor{
+    width: 70%;
+    margin: 10% 10%;
+}    
+}
 
 
